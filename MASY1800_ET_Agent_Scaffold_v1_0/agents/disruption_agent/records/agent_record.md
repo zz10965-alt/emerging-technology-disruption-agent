@@ -1,4 +1,4 @@
-# Specialist Agent Record — pre-case draft
+# Specialist Agent Record — case-ready draft
 
 ## A. Agent and version
 - Student / team: To be completed by the student.
@@ -8,12 +8,12 @@
 - Branch: assignment-2-disruption-agent.
 - Commit: Uploaded baseline 4cd9f889302bb2d647199490ccc2898d489d3569. Pre-case implementation commit: resolve with `git log -1 --format=%H -- MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent` after committing. Final tested submission commit: pending.
 - Frozen scaffold: MASY1800_ET_Agent_Scaffold_v1_0.
-- Specialist version: 0.1-pre-case; prompt implementation complete, analytical behavior untested.
+- Specialist version: 0.2-case-ready; selected case inputs/packets prepared, analytical behavior untested.
 
 ## B. Specialist purpose and context
 - Governing question: How much creative destruction could this emerging technology cause to this business and industry, on what time horizon, and what should management do about that exposure?
-- Emerging technology / application / organization / industry: Pending student case selection.
-- Adoption posture / risk context / management question and horizon: Pending case intake and evidence.
+- Emerging technology / application / organization / industry: LLM generative AI for bilingual U.S. market-entry research at a hypothetical small consultancy serving Chinese home/lifestyle consumer brands.
+- Adoption posture / risk context / management question and horizon: Moderate/fast-follower; public/redacted inputs and human sign-off; incorrect advice, confidentiality and cross-cultural interpretation risks; 12-month decision, explicit 1/3-year analytical windows. See cases for assumptions.
 - Specialization: business baseline, sustaining/disruptive mechanism, creation/destruction ledger, potency, severity/time matrix, incumbent dilemma, bounded response.
 
 ## C. Three-level finding
@@ -27,7 +27,7 @@
 ## D. Evidence and testing
 - Framework sources: Assignment 2 V3; common instructions; Student Operating Guide v2; Fortino, Chapter 1, August 2026 draft, sections 1.2–1.7 and Figure 1.8, page 11. These are conceptual sources, not verified evidence of contemporary market facts.
 - Baseline frozen-core check: Passed before edits.
-- Primary test: Not run; waiting for case selection.
+- Primary test: Not run; awaiting actual interactive ChatGPT run and verified external evidence.
 - Contrast stable finding / changed finding: Not yet established.
 - Weakness/failure: No actual specialist response exists yet. The missing upload dotfiles are a packaging limitation, not the assignment's required agent weakness.
 - Revision and reason: No evidence-driven agent revision yet; pending genuine weak output and retest.
@@ -37,3 +37,7 @@
 - Credible enough for team consideration? The design is available for review, but analytical credibility is not established until actual testing and factual verification. Student judgment pending.
 - Team recommendation: Preserve the common contract, three context levels, conditional severity/time distinction, and evidence/abstention boundaries. Do not treat this pre-case package as validated decision support.
 - AI / verification note: Codex read supplied course documents and the uploaded scaffold, created the specialist with the instructor's tool, and drafted English instructions/records. The frozen-core checker, package hashes, provided toy validator and prompt builder were executed locally. No case facts or responses were generated or verified; no final independent judgment or personal reflection is claimed.
+
+## Case-ready update
+
+Student selected a focused version of consulting case A: Chinese home/lifestyle brands entering the United States. Primary: report-led consultancy. Contrast 1: fieldwork/execution-led consultancy. Contrast 2: internal brand expansion team. All are hypothetical organization-type scenarios with the same LLM capability and general evidence snapshot. The 0.2 change instantiates case inputs; it is NOT a revision in response to an observed model failure. External source retrieval was blocked by proxy 403. Exact packets and run instructions are supplied; no case finding, real weakness, or test success is claimed.

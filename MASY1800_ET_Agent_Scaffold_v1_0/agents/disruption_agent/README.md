@@ -1,15 +1,15 @@
 # Emerging Technology Disruption Agent
 
-Status: 0.1-pre-case. Created from the unchanged instructor template with `tools/new_agent.py`. Case selection and actual ChatGPT testing are pending.
+Status: 0.2-case-ready. Created from the unchanged instructor template with `tools/new_agent.py`. The student selected the China-to-U.S. market-entry consulting case. External evidence verification and actual ChatGPT testing are pending.
 
 ## Files and boundaries
 
 - `specialist_instructions.md`: reusable creative-destruction logic and exact placement within the common schema.
 - `agent_metadata.json`: name, specialty, pre-case version.
-- `cases/primary.json`, `contrast_1.json`, `contrast_2.json`: unchanged REPLACE intake placeholders; not runnable analytical cases.
+- `cases/primary.json`, `contrast_1.json`, `contrast_2.json`: completed hypothetical scenario intakes: report-led consultancy, fieldwork/execution-led consultancy and an internal brand team.
 - `records/agent_record.md`: pre-case record matching the Word template's sections A–E; pending findings are explicit.
 - `records/phase_1_2_status.md`: inspection and mechanical verification evidence.
-- `records/case_options.md`: three proposals, awaiting student selection.
+- `records/case_options.md`: historical proposals; the student selected a focused consulting variant.
 - `responses/`: reserved for actual saved ChatGPT JSON, currently empty.
 
 No added dependencies or API key are needed. Use existing checkouts in the isolated cloud environment; do not create a worktree unless the student requests one. Run commands from `/workspace/emerging-technology-disruption-agent/MASY1800_ET_Agent_Scaffold_v1_0`.
@@ -34,3 +34,7 @@ Repeat for contrasts using the corresponding case paths. Manually inspect all sc
 ## Required final deliverables — not yet complete
 
 Completed package/Agent Record; readable primary output report; independent judgment draft of half a page or less; AI Use and Verification Note; Craft Gained draft of at most 100 words; real test/revision evidence, limitations, and team handoff. Personal judgment and reflection require the student's review and actual testing. Brightspace provides authoritative due dates and submission UI instructions, which are not supplied here.
+
+## Selected case and next step
+
+See `evidence/source_register.md`, `records/test_plan.md` and `records/run_in_chatgpt.md`. Complete packets are in `packets/`; they are inputs, not test outputs. Never submit the earlier unselected `/tmp` smoke packet. Current cases have no REPLACE placeholders and label organizational attributes as assumptions.

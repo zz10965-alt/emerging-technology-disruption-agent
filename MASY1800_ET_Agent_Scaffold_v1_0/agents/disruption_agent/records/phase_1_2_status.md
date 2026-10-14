@@ -35,3 +35,13 @@ No dependency-install script or running service is required for this scaffold. C
 ## Original archive reconciliation
 
 The student subsequently supplied the canonical scaffold ZIP. Its 32 file entries were compared byte-for-byte with the working copy: all existing original files matched, and only the three previously reported hidden files were absent. Restored `.gitignore`, `work/.gitkeep`, and `agents/_template/responses/.gitkeep` directly from the unchanged ZIP, without reconstructing contents or modifying manifests. ZIP SHA-256: `3875e8924556b2801c572390fb2c90e5957aea452d33312a31084e1f3712e754`. The full package hash check and frozen-core checker now pass. Earlier missing-file results above remain as historical evidence and are resolved. No case selection or analytical testing has occurred.
+
+## Selected-case preparation update
+
+Student approved the focused consulting case. Version 0.2-case-ready adds explicit hypothetical China-to-U.S. home/lifestyle brand market-entry contexts: report-led consultancy (primary), fieldwork/execution-led consultancy (contrast 1), and internal brand expansion team (contrast 2). All required input strings are populated, with no REPLACE placeholders. Case configuration is not empirical evidence.
+
+Actual checks passed: all required intake string fields; exact equality of technology/general evidence snapshot/posture/risk/date windows across cases; distinct organization/application/capability baselines; all three saved packets rebuilt byte-for-byte through the instructor tool; all original package hashes; frozen-core check. These are mechanical checks, not model behavior tests.
+
+Original-source retrieval to NBER, HBS, SBA and NIST returned proxy 403. No external empirical findings were asserted. Required hosts were saved to a network configuration draft; its save requires review/save and publication in environment settings and does not itself enable access. No secret/API key requirement was added.
+
+No callable interactive ChatGPT runtime exists in this Codex session. Per the requested MD fallback, complete prompt packets and exact run/save/validate instructions are supplied in `packets/` and `records/run_in_chatgpt.md`. Actual primary/contrast outputs, evidence verification, stable/changed judgments, real weakness/revision/retest, final report and personal deliverables remain pending. Do not count case instantiation/version 0.2 as an evidence-driven revision.

@@ -11,3 +11,7 @@ These are analysis candidates, not verified disruption conclusions. Evidence sou
 A is recommended for a bounded assignment because its generic organizational scenario makes assumptions explicit and aligns closely with the chapter's consulting example. It does not assume that the chapter's employment/revenue claims are independently verified. B offers public-company evidence but requires caution about incomplete monetization data. C needs the most geographic and operational specificity.
 
 After selecting A, B or C, define the decision, evidence date, time windows and organization assumptions before tests. Proposals are not primary inputs or model results. No case has been selected.
+
+## Selection recorded
+
+The student approved a focused consulting variant: LLM generative AI for small consulting practices helping Chinese home/lifestyle brands enter the U.S. market. The current contrasts use a fieldwork/execution-led consultancy and an internal brand team rather than a bank. Selection is complete; the preceding proposals are retained as history.
