@@ -1,0 +1,487 @@
+{
+  "status": "Complete documented submission materials; student identity/personal review and actual Brightspace rules still to check",
+  "source_commit": "fe1e0456e20c13d5c9fac56d0bbacb9108d5c4ec",
+  "branch": "assignment-2-disruption-agent",
+  "tested_agent_version": "0.4-reviewed",
+  "created_utc": "2026-10-14T03:53:56.175619+00:00",
+  "runtime_provenance": "Three v1 outputs generated in ONE ChatGPT conversation from revised specifications, not independent fresh chats; user-reported, not witnessed Codex API calls.",
+  "actual_checks": "Six course and six full-schema passes; raw files preserved; original core/package hashes pass.",
+  "analytical_disposition": "Partial improvement with retained defects, not full behavioral or market validation.",
+  "files": [
+    {
+      "path": "00_READ_ME_FIRST.txt",
+      "bytes": 1113,
+      "sha256": "c0aac6d04d45e8e071d20342ca18004a8ce025b1bd58a496d7c29ed891ec010d"
+    },
+    {
+      "path": "01_Agent_Record.docx",
+      "bytes": 40484,
+      "sha256": "d3577e8c6466e8fea23c9d0ca3bfe0a67599c5b8a695e15bde62486fcc719b74"
+    },
+    {
+      "path": "02_Primary_Case_Output_Report.docx",
+      "bytes": 41858,
+      "sha256": "0e717d0e3ed152e9295a862de509eab5958484d0a130b088c5ec59914aa97490"
+    },
+    {
+      "path": "03_Independent_Professional_Judgment_Draft.docx",
+      "bytes": 37940,
+      "sha256": "3194545b0c70f54a44d8f95063c617f30248f190a24bc8580ee5c2cfc6dc1cf3"
+    },
+    {
+      "path": "04_AI_Use_and_Verification_Note.docx",
+      "bytes": 38560,
+      "sha256": "d9ba1928ef478c0d768b74676886ad4efe3d221fc7c4b8c389c86344d4e3c700"
+    },
+    {
+      "path": "05_Craft_Gained_Draft.docx",
+      "bytes": 37606,
+      "sha256": "4fe8d209290e8ebc1896ebc8f70a62545d7171fd04bfd5831931d5fc449dabea"
+    },
+    {
+      "path": "06_Team_Handoff.docx",
+      "bytes": 38674,
+      "sha256": "d1b7c4fcd99790df2b8c256b8452dcc33d7f70eac2a624bcd6b1720316ae9df0"
+    },
+    {
+      "path": "07_Submission_Checklist.docx",
+      "bytes": 39488,
+      "sha256": "90117a6cac36f89f9cd82f9f8c21f36e36afa7286a6f87684353dc7eaade87d9"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/.gitignore",
+      "bytes": 56,
+      "sha256": "0fb82d668a04e70e5940e7f821ee7a67bc57596cac013d7ffb86bb611d340518"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/CHATGPT_CODEX_WORKFLOW.md",
+      "bytes": 748,
+      "sha256": "64aba7ea4ea9f5059edcc059339e42fe2e392545c18a926388fe2a792b4d6d95"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/FROZEN_CORE_SHA256.txt",
+      "bytes": 632,
+      "sha256": "17622f291fd6a5897029af1a11a44582fa228396539ac8563c668ef9cb70168a"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/GITHUB_WORKING_COPY.md",
+      "bytes": 551,
+      "sha256": "44f8c331b2f7ce49c2d726c8754a523882038c75e320de7e3184c9c1c8aab8f6"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/PACKAGE_SHA256.txt",
+      "bytes": 2898,
+      "sha256": "b3971c4633207ee066d03557082ba25101cf25d5b8ce82a43ba875180c8f0632"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/README.md",
+      "bytes": 1374,
+      "sha256": "4fdc1d3c3fea403da39b5db01ed88bdad89c0de56d61e064e8e7ccce7562bb43"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/START_HERE.md",
+      "bytes": 1368,
+      "sha256": "023adc15c0f9c3b3b575f1b45385b593b473c25ffc311dcf7415bf6ad561becc"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/VERSION.txt",
+      "bytes": 116,
+      "sha256": "c9cbe028d9a3515591c160e5e6b121adbf17f8434d82c864b05a0c3134ced615"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/README.md",
+      "bytes": 229,
+      "sha256": "7d7eff3f14062912625bbae015184cac45525e6e2d92ae555c4a975c9e1ddf4a"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/agent_metadata.json",
+      "bytes": 119,
+      "sha256": "bb146d70533b4798e2549c5c8101de1ce30a6366acb076bfa2fe37c16c04fbfe"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/cases/contrast_1.json",
+      "bytes": 409,
+      "sha256": "4e0beb00243ed0f90feddf7d5b24bc1fac8f8ad6c3310ad2221bcde745305d21"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/cases/contrast_2.json",
+      "bytes": 409,
+      "sha256": "4e0beb00243ed0f90feddf7d5b24bc1fac8f8ad6c3310ad2221bcde745305d21"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/cases/primary.json",
+      "bytes": 409,
+      "sha256": "4e0beb00243ed0f90feddf7d5b24bc1fac8f8ad6c3310ad2221bcde745305d21"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/records/agent_record.md",
+      "bytes": 444,
+      "sha256": "2f41466b88d1a9e4aed262f198c6e747ea79f3bbc4c96324bd5f5703d1df2356"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/responses/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/_template/specialist_instructions.md",
+      "bytes": 1373,
+      "sha256": "0d626263db426f741cd0432318fce7e296de5c34a29bf524925501f647c65505"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/README.md",
+      "bytes": 3352,
+      "sha256": "85fc1df6c5f1dfd657604a85b895698b598c650fc484166204ad87803ed5af18"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/agent_metadata.json",
+      "bytes": 151,
+      "sha256": "0173c76a2b72634f424f65af5db74213219234bc1216659a95845abccf7ada0a"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/cases/contrast_1.json",
+      "bytes": 11154,
+      "sha256": "b26b213750d17faa68e0b5db757b32c74b82496e9b41494acc00dd5504c90c80"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/cases/contrast_2.json",
+      "bytes": 10955,
+      "sha256": "f797b658d3a6ba7806efa7f67734bd4270efd998b051455df258788c2b58ebd8"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/cases/primary.json",
+      "bytes": 11240,
+      "sha256": "956e7581189a779b262fc0c9f67d8f590c512dce0510613bb1a7bcfd33fb9526"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/00_Submission_Checklist.docx",
+      "bytes": 39488,
+      "sha256": "90117a6cac36f89f9cd82f9f8c21f36e36afa7286a6f87684353dc7eaade87d9"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/00_Submission_Checklist.md",
+      "bytes": 4244,
+      "sha256": "1238088f3bb648980a88c72f5521456d9ba057d4cf6eb3d8c92844a7830a7567"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/01_Primary_Case_Output_Report.docx",
+      "bytes": 41858,
+      "sha256": "0e717d0e3ed152e9295a862de509eab5958484d0a130b088c5ec59914aa97490"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/01_Primary_Case_Output_Report.md",
+      "bytes": 9568,
+      "sha256": "2124501eb087c19fd1529c8dd46d2ba03ae02a9b57dbac8e5f19fee55ee03889"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/02_Independent_Professional_Judgment_Draft.docx",
+      "bytes": 37940,
+      "sha256": "3194545b0c70f54a44d8f95063c617f30248f190a24bc8580ee5c2cfc6dc1cf3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/02_Independent_Professional_Judgment_Draft.md",
+      "bytes": 1291,
+      "sha256": "bb047bb487586ade95a7983919784c8a66f4de719b8cc38b050791c9648c26ae"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/03_AI_Use_and_Verification_Note.docx",
+      "bytes": 38560,
+      "sha256": "d9ba1928ef478c0d768b74676886ad4efe3d221fc7c4b8c389c86344d4e3c700"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/03_AI_Use_and_Verification_Note.md",
+      "bytes": 2672,
+      "sha256": "df98275e1184fb25629f490ad58e6d356a0e28acedd947e91f65f1babe908826"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/04_Craft_Gained_Draft.docx",
+      "bytes": 37606,
+      "sha256": "4fe8d209290e8ebc1896ebc8f70a62545d7171fd04bfd5831931d5fc449dabea"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/04_Craft_Gained_Draft.md",
+      "bytes": 643,
+      "sha256": "d2ab05d56717ef99c686e600d1dc7e6c48aa85424b140c80b372d66da7d98668"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/05_Team_Handoff.docx",
+      "bytes": 38674,
+      "sha256": "d1b7c4fcd99790df2b8c256b8452dcc33d7f70eac2a624bcd6b1720316ae9df0"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/05_Team_Handoff.md",
+      "bytes": 2766,
+      "sha256": "a19a145d2b15b81b4ab51e363e674d075d59928110afd30a96b0d3c818cb6f60"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/deliverables/06_Agent_Record.docx",
+      "bytes": 40484,
+      "sha256": "d3577e8c6466e8fea23c9d0ca3bfe0a67599c5b8a695e15bde62486fcc719b74"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/evidence/access_results.json",
+      "bytes": 2442,
+      "sha256": "1e1ca262e9ab493235feea471fe3752b7a4349bf64dbbcb1c0957ceabc2f8d48"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/evidence/source_register.md",
+      "bytes": 7344,
+      "sha256": "b499daab0ae5a831735995e9e639691ae7f85d76d54861e1a0becd3ccfe65fad"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/evidence/verification_note.md",
+      "bytes": 1651,
+      "sha256": "3fdfae21decedebf28aab4f2483da66f9a3da2328d72fc4e331107e5e2de3562"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/contrast_1_prompt.txt",
+      "bytes": 26796,
+      "sha256": "14057fc804d3730c89448afeb0afc63af47e87f4881577ba4d1b25251545719c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/contrast_2_prompt.txt",
+      "bytes": 26597,
+      "sha256": "8325145d95ecb53705459073fc00a46cea2fce576ee5f121f798d7a1f9d640a3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/primary_prompt.txt",
+      "bytes": 26882,
+      "sha256": "fcd9b44a249d869945636e995643621d5c0e7e8b6517a7af3e5bea03485464c3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/retest_contrast_1_prompt.txt",
+      "bytes": 30842,
+      "sha256": "29c9a3be8213535417c80e55d97df1f1f5ddb61ff2f959cbd60c0444b4c748e1"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/retest_contrast_2_prompt.txt",
+      "bytes": 30643,
+      "sha256": "93bde4194d0c6c187f86700be84ed9d9143b1a48b71db7e20a4a0d9b5c380e42"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/packets/retest_primary_prompt.txt",
+      "bytes": 30928,
+      "sha256": "62b66384968c4b83668d95f4f8f5ebfda54e56b42233872d1f80dc89e3818cac"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/RETEST_HANDOFF_original.md",
+      "bytes": 1907,
+      "sha256": "fedd1e90b2580a8f0a1ab977af94f2b5045a307697847b48747b3151d0643518"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/TEST_HANDOFF_original.md",
+      "bytes": 3289,
+      "sha256": "aa0b58a4d8d0c7fa1f1c1c526915728b59192873a663bd367e854ff9b2952363"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/agent_record.md",
+      "bytes": 6420,
+      "sha256": "8873a843507a1a51edee564c39baabc51bbcdb087009a0ca8508f97b8efc9e7c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/baselines/contrast_1_v0_prompt.txt",
+      "bytes": 26796,
+      "sha256": "14057fc804d3730c89448afeb0afc63af47e87f4881577ba4d1b25251545719c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/baselines/contrast_2_v0_prompt.txt",
+      "bytes": 26597,
+      "sha256": "8325145d95ecb53705459073fc00a46cea2fce576ee5f121f798d7a1f9d640a3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/baselines/primary_v0_prompt.txt",
+      "bytes": 26882,
+      "sha256": "fcd9b44a249d869945636e995643621d5c0e7e8b6517a7af3e5bea03485464c3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/baselines/v0_agent_metadata.json",
+      "bytes": 159,
+      "sha256": "8ca798d1a8d62520303a627f56819f409261a3c0f8e0cd04f4cdeeb60d9e74cf"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/baselines/v0_specialist_instructions.md",
+      "bytes": 11275,
+      "sha256": "d7f8d00b558a366104ff61613ec95b4fa0f074f5f8cbbe6e6a7661ba3c2da39c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/case_options.md",
+      "bytes": 3427,
+      "sha256": "e7a43bea150d3682064a9604244f4ff4a36ca544ee9f252b250f9456b616ad4d"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/critical_review.md",
+      "bytes": 8794,
+      "sha256": "7f0d22085a57ec185537fb0d643ece1bb2f2a8eced2e4124dd3b0c6617781b50"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/phase_1_2_status.md",
+      "bytes": 7725,
+      "sha256": "86fa02395e6ea9d02856dfdc70cc83ca0ebd31ce1af063fe3f228656019b47be"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/retest_assessment.md",
+      "bytes": 7390,
+      "sha256": "80d3bbd02a1878ae20b52a630ceea275b734c3080f1250be4770d91a2f5003ba"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/retest_handoff.md",
+      "bytes": 3229,
+      "sha256": "81ce215b5de03a6aa1ce038e1fda4326effd9a709563d779f05de5e4865bd8a0"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/run_in_chatgpt.md",
+      "bytes": 4519,
+      "sha256": "0ea111b81c3013b164e8606d3963a69d3ef317118b7c1425fd3e87449baa720e"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/test_plan.md",
+      "bytes": 4090,
+      "sha256": "9ff3b97d3c551559321f316e6cdc3b95a365ffacd5ab2eb65a0a3ff9d5cce2a5"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/final_qa_results.json",
+      "bytes": 2348,
+      "sha256": "03ab2a02e1aafcae4bb5253f01eb245565112fdafa86520f1e75ddf2bcfc711e"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/revision_preflight_results.json",
+      "bytes": 1009,
+      "sha256": "9872c1098bc1c453abb40f86aefbb24dd2953b1ea980c137ca28d9adb4d7c410"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/v0_preservation_manifest.json",
+      "bytes": 978,
+      "sha256": "b6be886bbcb820caeeabe286f5ba7e09344c4dc8bc9a9891c0348a5942beb353"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/v0_validation_results.json",
+      "bytes": 1481,
+      "sha256": "68cca6bbc1b0308e1d63656946137c913d6536b3c763cdaf69b853f4e382c58c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/v1_preservation_manifest.json",
+      "bytes": 982,
+      "sha256": "f0033e8027648e8a7a38271a7fdf30fd631e310254bae0d34af73d63e098ee79"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/records/validation/v1_validation_results.json",
+      "bytes": 1414,
+      "sha256": "70be044172b4cd817f14a9745702d763e00c2e32dad3182ad936e4a5e8b558c5"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/contrast_1_v0.json",
+      "bytes": 10989,
+      "sha256": "a535e75595dc7bd3d38e5306a829c872a0f6aa0671720f98a79de21f43f2129d"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/contrast_1_v1.json",
+      "bytes": 11301,
+      "sha256": "f10bc2430f41120df42477865bdf2dad30c010ae1c128e7dc205ce80a3171921"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/contrast_2_v0.json",
+      "bytes": 10987,
+      "sha256": "4e0982b2e705dc24706f91601b34d8e6cc91a6f4f09f1adb52b063743dfda67a"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/contrast_2_v1.json",
+      "bytes": 11246,
+      "sha256": "2bae57024450eda35b06712bf0dfbaa0670942e70384a8ba73691c1564538a78"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/primary_v0.json",
+      "bytes": 11228,
+      "sha256": "4e7c28b38a3969fb34aae50eb91ce30ace182e8e88668827b70c33b213d23cec"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/responses/primary_v1.json",
+      "bytes": 11701,
+      "sha256": "c317017eef5129591a7f031b7f81604505631bc5e28633aa8aa6e68c570b5611"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent/specialist_instructions.md",
+      "bytes": 15329,
+      "sha256": "4f9febcef89adf53ed8ae504040db2942639959880090004ced70956fb64f5e0"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/core/common_instructions.md",
+      "bytes": 1355,
+      "sha256": "a7cd11f59a00f03d26a13fca6ab9c8428ed9c5584b24deb2bcba0cc05b8629c6"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/core/input_schema.json",
+      "bytes": 1185,
+      "sha256": "3fb90f28fe012797c7f06449f76cbec4a7fdf3361ea5ab5172f6ae04925d788a"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/core/output_schema.json",
+      "bytes": 2483,
+      "sha256": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/docs/Emerging_Technologies_Agent_Record_Template.docx",
+      "bytes": 28539,
+      "sha256": "5275ea28e66a27d5ddfae3c0541ce7cf7711655a450da7eecb4d36b0ced7e802"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/docs/Emerging_Technologies_Common_Agent_Scaffold_Student_Guide_v2.docx",
+      "bytes": 30907,
+      "sha256": "95269c931c14abf458fbe9c4f7cb54bd8d8100a3549f8b9990775cfc4f0676a3"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/examples/toy_agent/agent_metadata.json",
+      "bytes": 161,
+      "sha256": "16c46fea35183f7d538b645b1810cab78554d0a4d5208f7d36a46ad36f7c158c"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/examples/toy_agent/cases/primary.json",
+      "bytes": 817,
+      "sha256": "dec4158998657238f81da1f8da53703d56b3853af33262962d4b687ad10755c0"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/examples/toy_agent/responses/primary_response.json",
+      "bytes": 2460,
+      "sha256": "5753bfc5d98056b61345b536fa77d8fb84b13f3f7f706d7d44ba967117e0bd11"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/examples/toy_agent/specialist_instructions.md",
+      "bytes": 720,
+      "sha256": "0f425500e67ff0ea655b4dba8ed498f2f6e859fdf46fcdfe7cd36e4c379758a8"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/requirements.txt",
+      "bytes": 80,
+      "sha256": "931dc9df1453613d48a1226a64918635d9fc5266af08cd17222cc240c881a102"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/tools/build_prompt.py",
+      "bytes": 1567,
+      "sha256": "4a74e1d5363ff974d9c5935479815367fe87e406e75293d2a3d9c9f038378f00"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/tools/check_frozen_core.py",
+      "bytes": 596,
+      "sha256": "4a965275dd6904788b94977e51751e29972035fe5e87d8e567f3162af693a064"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/tools/new_agent.py",
+      "bytes": 1010,
+      "sha256": "3ffcf866606f69c1c6d607c83d3d5b96e76bacb26de177eee7c73f89c20f2cee"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/tools/validate_response.py",
+      "bytes": 2326,
+      "sha256": "c4540b1420a4f7d730d0c928e23eac466031160779ae4e6023f2cf10f5a73a4e"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/work/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Agent_Package/MASY1800_ET_Agent_Scaffold_v1_0/work/toy_agent_primary_prompt.txt",
+      "bytes": 5872,
+      "sha256": "f163c354515aa5df63ce032232bb5565f4a86a44382f2ed2ecada3a29d027d13"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "filename": "Assignment_2_Brightspace_Submission.zip",
+  "sha256": "7648ca277196b833ed076ddd7a89e7feced168e94a0219112ccfb8b0917daa44",
+  "bytes": 805139,
+  "source_commit": "fe1e0456e20c13d5c9fac56d0bbacb9108d5c4ec",
+  "checks": "CRC, all payload hashes, all received original hashes, extracted frozen checker and all six instructor/full-schema checks passed"
+}
