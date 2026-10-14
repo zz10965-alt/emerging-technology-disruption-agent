@@ -1,8 +1,9 @@
-# Assignment 2 packages — REVIEW DRAFT, not final
+# Assignment 2 — final documented submission materials
 
-Source revision is recorded in `submission_manifest.json` inside the review ZIP.
+Use **Assignment_2_Brightspace_Submission.zip**. It supersedes the historical review-draft and retest-input ZIPs retained here for audit history.
 
-- **Assignment_2_Retest_Packets.zip**: execution aid only. Open its README and run the three revised prompts separately in ordinary ChatGPT. Save the exact returned JSON as primary_v1.json, contrast_1_v1.json and contrast_2_v1.json, then return them to Codex. These are not school submission files.
-- **Assignment_2_Review_Draft.zip**: complete preserved scaffold and current agent, real v0 results, hashes/validation, critique/revision, and English Word/Markdown deliverables. The primary report is a reviewed account of actual v0, not a successful v1 run. The archive is NOT READY TO SUBMIT while behavioral retest and student personal review remain pending.
+The final archive has seven top-level English Word documents, the full intact scaffold/specialist under `Agent_Package/`, all six unchanged v0/v1 JSONs, original handoff notes, source references, validation, genuine failure/revision/retest assessment, and a source/file-hash manifest. Student name/team and personal judgment/reflection must be checked before upload; follow the actual Brightspace item's current format/date rules.
 
-No v1 response or behavioral success is fabricated. After genuine retest review, the final deliverables and status must be updated and the final package rebuilt. Brightspace due date, accepted formats and UI details must be obtained from the course site.
+V1 consists of three outputs generated in ONE ChatGPT conversation, not three independent fresh-chat executions. All six structural checks pass, but analytical outcomes are partially improved, with remaining scope drift, generic counterarguments and ledger gaps documented. The package does not claim real-world validation or full behavioral compliance. No Brightspace submission has been performed.
+
+The source commit in the manifest identifies the deliverable/test snapshot; the subsequent packaging commit may differ. The old `Assignment_2_Review_Draft.zip` and `Assignment_2_Retest_Packets.zip` are not the current submission package.

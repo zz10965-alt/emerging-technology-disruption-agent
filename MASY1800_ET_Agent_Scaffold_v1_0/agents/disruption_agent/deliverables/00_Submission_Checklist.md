@@ -1,32 +1,46 @@
-# Submission checklist and package status
+# Brightspace submission checklist and package map
 
-**REVIEW DRAFT — DO NOT SUBMIT AS COMPLETE.** A genuine revised-agent ChatGPT retest and student personal review remain outstanding.
+The package contains the required English work products and actual test/revision evidence. **This is a bounded tested candidate with retained weaknesses, not a claim that every analytical acceptance criterion passed.** Personal drafts require student review; exact due date, accepted formats and upload arrangement must be checked in the actual course item.
 
-| Requirement | Current evidence/status |
+| Requirement | Evidence / disposition |
 |---|---|
-| Instructor scaffold/template preserved | All original package/frozen hashes checked; no common/tool edits |
-| Reusable specialist and common contract | Implemented; revision 0.4-reviewed |
-| Primary plus context contrasts, same ET | Three original returned v0 JSONs preserved unchanged; exact input/evidence snapshots retained |
-| Actual structural validation | All three pass instructor checker and full Draft 2020-12 schema |
-| Stable and changed findings | Independently documented in critical review; valid value-capture difference distinguished from confounded rating ladder |
-| Genuine weakness and revision | Exact observed passages preserved, v0 baseline retained, 0.4 controls added |
-| Behavioral retest of revision | PENDING — no v1 outputs exist; packets and acceptance criteria supplied |
-| Agent Record | Filled with actual results and pending items; student identity and revised-run outcome still needed |
-| Primary-case output report | English readable report of actual v0 plus clearly separated reviewer analysis |
-| Independent judgment ≤half page | English short draft; student review required |
-| AI Use and Verification Note | Written; distinguishes source checking, external v0 generation, local tests and pending retest |
-| Craft Gained ≤100 words | English 80-word body draft (check generated word-count record); student must make it personally accurate |
-| Team handoff / limits | Written; no final validated-agent claim |
-| Repository/branch/source commit | Branch recorded; exact source SHA in package manifest |
-| Brightspace instructions | Materials identify required artifacts, not actual due date/UI/accepted upload formats; verify those in course site |
+| Instructor scaffold/common contracts/tools | Original package and frozen hashes verified; no core/tool changes |
+| Specialist package | Template-derived 0.4-reviewed instructions, metadata, three cases, original/revised packets, source register and limitations |
+| Business baseline, disruption lens, ledger, potency, severity/time, incumbent dilemma, bounded action | Implemented in specialist instructions and discussed in report. Actual model ledger/category-object compliance remains partial and is explicitly documented |
+| Three context levels / same technology | Preserved in three cases and outputs; stable general finding and valid paid-value differences reviewed |
+| Real primary/contrast tests | Three v0 plus three v1 original JSONs; both handoffs and hashes preserved |
+| Genuine weakness, revision and retest | Exact v0 weaknesses, retained baseline, 0.4 revision and actual v1 outputs; correction/partial/non-correction table in retest assessment |
+| Actual validation | Six instructor-validator passes and six full-schema passes; not factual/analytical guarantees |
+| Runtime provenance | v1 generated in ONE ChatGPT conversation from revised specifications, NOT three independent fresh chats; settings/transcript not independently established |
+| Agent Record | Completed actual-work record; student name/team must be entered |
+| Primary-case report | Readable actual-v1 report with separate reviewer synthesis and limitations |
+| Independent judgment | Short English personal-review draft, designed for ≤half page in supplied Word layout |
+| AI use/verification | Original-source scope, user-provided model runs and independent review distinguished |
+| Craft Gained | ≤100-word English personal-review draft; word count in final QA log |
+| Team handoff | Recommendation, escalation, integration boundary and remaining defects recorded |
+| Repository/branch/commit | Exact final source SHA in package manifest; packaging commit may differ |
 
-## Before submitting
+## What to upload
 
-1. Run all three 0.4 retest packets in normal ChatGPT and return exact v1 JSONs. Validate and critically compare with v0; keep persisting weaknesses honest. Update report/record with actual outcomes, not anticipated fixes.
-2. Review the independent judgment and Craft Gained. Edit them to match the student's own views/experience; add name/team where required.
-3. Recheck frozen integrity and package contents; record the tested source commit. Rebuild the package after retest.
-4. In the actual Brightspace Assignment 2 item, follow the instructor's accepted formats and upload instructions. Submit the completed Agent Package/Record, readable primary output report, independent judgment, AI verification note and Craft Gained as required. Do not submit the temporary retest-input ZIP as the assignment. No unsupported deadline or precise UI workflow is supplied here.
+The final ZIP places the required documents at its top level:
 
-## Archive contents
+- `01_Agent_Record.docx`
+- `02_Primary_Case_Output_Report.docx`
+- `03_Independent_Professional_Judgment_Draft.docx`
+- `04_AI_Use_and_Verification_Note.docx`
+- `05_Craft_Gained_Draft.docx`
+- `06_Team_Handoff.docx`
+- `07_Submission_Checklist.docx`
+- `Agent_Package/`: full preserved scaffold plus specialist/test/evidence records.
+- `submission_manifest.json`: source commit, status, file hashes and runtime caveat.
 
-The review archive contains the intact original scaffold, student agent, evidence references/access log, actual v0 responses and handoff, validation records, v0 instruction/prompt baselines, revised instructions/retest packets, English Markdown/Word deliverables and a source manifest. It omits the private classroom chapter/assignment uploads and external copyrighted full papers. The separate retest ZIP contains only the three complete revised prompts and instructions; it is an execution aid, not a submission package.
+Markdown counterparts are retained in the agent's deliverables folder. The retest inputs alone are not the assignment. Historical review/retest ZIPs in GitHub are superseded by `Assignment_2_Brightspace_Submission.zip`.
+
+## Final student actions
+
+1. Review the independent judgment and Craft Gained for personal accuracy; revise wording if necessary. Enter student/team identification in the Agent Record and any required course fields.
+2. Open the actual Brightspace Assignment 2 item and check its due date, format/file-count rules and current instructions. Those platform details were not included in the supplied documents and are not invented here.
+3. If the item accepts a single complete ZIP, use the final submission ZIP after personal edits. If it requests separate documents, extract and upload the named files plus the Agent Package as directed. Retain all raw v0/v1 evidence and residual limitations.
+4. Confirm uploaded filenames/previews in Brightspace and complete the site's submission action; save its receipt. This agent has not uploaded or submitted anything to Brightspace.
+
+Future fresh-session replication is recommended to improve reliability; no such independent execution is claimed or required to be pretended complete. Retain failed/partial criteria in the submission rather than hiding them.

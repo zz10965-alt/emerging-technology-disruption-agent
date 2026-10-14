@@ -36,3 +36,7 @@ Only then complete the readable report, half-page independent-judgment draft, ve
 ## Subsequent status update
 
 The three v0 responses were later supplied by the student, preserved unchanged, validated and critically reviewed. The opening pre-run status is historical. Use `retest_handoff.md` and `packets/retest_*_prompt.txt` now; no v1 exists. See `critical_review.md` for the genuine deficiencies rather than assuming the original categories are correct.
+
+## Final status after receipt of v1
+
+The student later supplied three actual v1 responses and a handoff stating they were produced in ONE ChatGPT conversation, not three independent fresh chats. Originals are preserved in responses/ and RETEST_HANDOFF_original.md. All six received v0/v1 JSONs pass independent course/full-schema checks. See retest_assessment.md for observed fixes, partial improvements and residual defects. Earlier statements that no v1 existed are historical, not current status. Version 0.4 remains the tested candidate; no further untested instruction change was substituted.

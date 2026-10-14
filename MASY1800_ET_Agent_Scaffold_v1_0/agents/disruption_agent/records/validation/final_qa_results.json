@@ -1,0 +1,69 @@
+{
+  "executed_utc": "2026-10-14T03:52:57.579483+00:00",
+  "response_checks": [
+    {
+      "file": "primary_v0.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    },
+    {
+      "file": "contrast_1_v0.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    },
+    {
+      "file": "contrast_2_v0.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    },
+    {
+      "file": "primary_v1.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    },
+    {
+      "file": "contrast_1_v1.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    },
+    {
+      "file": "contrast_2_v1.json",
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": []
+    }
+  ],
+  "preservation": [
+    "records/TEST_HANDOFF_original.md",
+    "responses/contrast_1_v0.json",
+    "responses/contrast_2_v0.json",
+    "responses/primary_v0.json",
+    "records/RETEST_HANDOFF_original.md",
+    "responses/contrast_1_v1.json",
+    "responses/contrast_2_v1.json",
+    "responses/primary_v1.json"
+  ],
+  "case_regression": [
+    "primary: exact original input/evidence bytes",
+    "contrast_1: exact original input/evidence bytes",
+    "contrast_2: exact original input/evidence bytes"
+  ],
+  "prompt_regression": [
+    "primary: exact revised packet rebuild",
+    "contrast_1: exact revised packet rebuild",
+    "contrast_2: exact revised packet rebuild"
+  ],
+  "tested_revision_preserved": "0.4 instruction and metadata bytes identical to reviewed/retest source79b9814; no untested fix",
+  "original_package_hashes": "all pass",
+  "frozen_core": "FROZEN CORE INTACT",
+  "independent_judgment_words": 169,
+  "craft_gained_words": 85,
+  "behavioral_retest": "three user-supplied v1 responses in ONE ChatGPT conversation; not three independent fresh-chat tests",
+  "analytical_outcome": "observed improvement; partially unresolved assessment-object drift, generic counterarguments and ledger completeness",
+  "overall_disposition": "submission materials complete with explicit limitations; student identity/personal review and actual Brightspace rules still to check"
+}

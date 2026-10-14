@@ -23,3 +23,7 @@ Intake and packet construction: validated mechanically. Primary/contrast model r
 ## Actual v0 review update
 
 Three student-supplied responses now exist and pass both structural checks. Their general findings are exactly identical, and their paid-value mechanisms differ appropriately. Their severity/time ladder is partly confounded by changing the rated object and is not accepted as a validated market conclusion. Exact review, preservation hashes and executed results are in `critical_review.md` and `validation/`. Version 0.4 and rebuilt packets address the observed weaknesses; behavioral retest remains pending.
+
+## Final status after receipt of v1
+
+The student later supplied three actual v1 responses and a handoff stating they were produced in ONE ChatGPT conversation, not three independent fresh chats. Originals are preserved in responses/ and RETEST_HANDOFF_original.md. All six received v0/v1 JSONs pass independent course/full-schema checks. See retest_assessment.md for observed fixes, partial improvements and residual defects. Earlier statements that no v1 existed are historical, not current status. Version 0.4 remains the tested candidate; no further untested instruction change was substituted.

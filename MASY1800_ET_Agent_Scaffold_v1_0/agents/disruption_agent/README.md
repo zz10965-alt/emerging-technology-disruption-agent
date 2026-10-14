@@ -1,40 +1,42 @@
 # Emerging Technology Disruption Agent
 
-**Current status: 0.4-reviewed; real v0 responses reviewed, behavioral retest pending. Do not submit as complete yet.**
+**Tested candidate: 0.4-reviewed. Actual v0 and v1 outputs received and reviewed. Partial improvement with retained weaknesses; not universally validated decision support.**
 
-Created from the unchanged instructor template. All original package/core/tool hashes remain intact. No new framework/API account is needed. Python standard-library course tools remain the required workflow. The optional full-schema check used the already-installed `jsonschema` package; it is not a change to course dependencies.
+Template-derived; common schemas/core/tools unchanged. Standard-library instructor workflow remains sufficient; the installed jsonschema package was additionally used for full-schema review, without changing course dependency declarations.
 
-## Current evidence
+## Contents
 
-- Student-supplied actual ChatGPT outputs: `responses/primary_v0.json`, `contrast_1_v0.json`, `contrast_2_v0.json`; raw handoff in `records/TEST_HANDOFF_original.md`. Bytes preserved, hashes recorded.
-- All three independently pass course validation and full Draft 2020-12 schema checks. This is format evidence, not analytical success.
-- `records/critical_review.md`: stable general findings, valid value-capture contrast, unsupported primary impact timing, cross-context evaluation-object drift and copied counterargument.
-- `records/baselines/`: exact original v0 specialist/metadata/packets.
-- `specialist_instructions.md`: revision 0.4 adds evidence gates and scope/uncertainty controls. Inputs/evidence are unchanged.
-- `packets/retest_*_prompt.txt`: revised packets. Original `primary_prompt.txt`/contrast packets are retained as v0 history, not the current retest inputs.
-- `records/retest_handoff.md`: exact external execution/save steps and acceptance criteria. No v1 outputs exist.
-- `deliverables/`: English Markdown and Word review drafts, including primary output report, independent judgment, verification note, Craft Gained and team handoff; `records/agent_record.md` documents actual work and limitations.
-- `evidence/`: checked NBER/SBA/NIST claims and actual access metadata. HBS remained 403 and is excluded. All organization data are declared hypothetical inputs.
+- `responses/`: six untouched user-supplied ChatGPT JSONs, v0 and v1.
+- `records/TEST_HANDOFF_original.md` and `RETEST_HANDOFF_original.md`: unchanged runtime provenance. V1 is three responses in ONE ChatGPT conversation, not independent fresh chats.
+- `records/validation/`: preservation hashes, executed structural outcomes and final QA.
+- `records/critical_review.md`: genuine v0 weaknesses; `retest_assessment.md`: actual v1 correction/partial/non-correction.
+- `records/baselines/`: unchanged original v0 metadata, instructions and packets.
+- `specialist_instructions.md`: actual tested 0.4 revision. No untested further fix silently substituted.
+- `cases/`: same technology and supplied evidence, different revenue/value contexts; attributes hypothetical.
+- `packets/`: original v0 and revised retest inputs; they are not output evidence.
+- `evidence/`: checked NBER/SBA/NIST scope; HBS unavailable/excluded.
+- `deliverables/`: final English course work products in Word/Markdown. Independent judgment/reflection require personal review. `records/agent_record.md` is the source for Word Agent Record.
 
-## Commands and directories
+## Findings and limits
 
-Use the existing isolated checkout; do not create a worktree unless the student requests one. Run from `/workspace/emerging-technology-disruption-agent/MASY1800_ET_Agent_Scaffold_v1_0`.
+V1 separates conditional primary High stress exposure from unknown realized potency and impact timing. Ancillary-service scope drift, generic counterarguments and incomplete ledger coverage remain. Shared-conversation carryover/settings/transcript limitations preclude claims of independent replication or causal proof of revision effectiveness. No real company data, interviews or pilot outcomes exist.
+
+## Reproduce local structural checks
+
+Use the existing isolated checkout, not a worktree unless explicitly requested. From the scaffold root:
 
 ```sh
 python tools/check_frozen_core.py
 python tools/validate_response.py agents/disruption_agent/responses/primary_v0.json
 python tools/validate_response.py agents/disruption_agent/responses/contrast_1_v0.json
 python tools/validate_response.py agents/disruption_agent/responses/contrast_2_v0.json
+python tools/validate_response.py agents/disruption_agent/responses/primary_v1.json
+python tools/validate_response.py agents/disruption_agent/responses/contrast_1_v1.json
+python tools/validate_response.py agents/disruption_agent/responses/contrast_2_v1.json
 ```
 
-Rebuild any revised packet with the instructor `build_prompt.py`, e.g.:
-
-```sh
-python tools/build_prompt.py --agent agents/disruption_agent --case agents/disruption_agent/cases/primary.json --out agents/disruption_agent/packets/retest_primary_prompt.txt
-```
-
-Actual model execution uses separate normal ChatGPT. Return its untouched v1 outputs for validation and critical review. The current session has no callable separate ChatGPT runtime; never fill missing files with scripted or manually corrected responses and call that a retest.
+The instructor validator checks basic structure; full-schema checks and substantive review are separately recorded. Passing either is not a market-validity claim. Exact case/prompt rebuild checks are in final QA.
 
 ## Submission
 
-See `deliverables/00_Submission_Checklist.md`. Review drafts are available now; a completed final package requires genuine behavioral retest outcomes and student review/identity. The archive manifest identifies the source commit. The temporary retest ZIP is an execution aid, not a Brightspace submission.
+Use `submission/Assignment_2_Brightspace_Submission.zip` at repository root, with top-level Word documents and full Agent Package. See its manifest and checklist. Add identity/review personal drafts and obey the actual Brightspace item formats/deadline. Historical pending-retest notes/ZIPs are retained as history and superseded by the current actual-retest assessment. No Brightspace upload has been performed.

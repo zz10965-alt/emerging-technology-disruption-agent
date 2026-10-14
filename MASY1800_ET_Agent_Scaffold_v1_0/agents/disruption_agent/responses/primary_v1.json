@@ -1,0 +1,66 @@
+{
+  "agent": {
+    "name": "Emerging Technology Disruption Agent",
+    "specialty": "creative destruction and business-model disruption",
+    "version": "0.4-reviewed"
+  },
+  "analytical_question": "As of October 13, 2026, what is the conditional creative-destruction exposure of a hypothetical report-led consulting firm applying human-reviewed LLM market research to Chinese home/lifestyle brands entering the US, and what should management do in its next 12 months?",
+  "general_et_finding": "As of October 13, 2026, human-directed LLM generation can plausibly assist bilingual public-source synthesis and drafting, subject to grounding, privacy and review risks [S1,S4]. The NBER November 2023 finding is from customer support, not consultancy economics. Schumpeter-style value creation and possible displacement are credible mechanisms; Christensen-style disruption is conditional upon an actual new-market/low-end foothold and movement into incumbent customers, NOT proven here [C1]. It may be sustaining when integrated into incumbent work, disruptive if it enables acceptable self-service alternatives. Neither adoption timing nor substitution can be inferred from model capability alone.",
+  "application_finding": "At the application level, LLM-generated public-source market mapping can lower some research preparation effort, but cannot establish firsthand US customer needs or true channel suitability; market advice remains contingent on human verification [S3,S4]. Creative-destruction ledger (hypothetical scenario, not observations). 1. Element: bilingual public-source desk research; creation/enabling: Create: faster source-linked bilingual drafts and potentially affordable, smaller-client diagnostic packages [S1 inference, A1 assumption]; displacement/reduction: Displace: billable public-source collection, basic competitor tables, report-first differentiation and possibly portions of fixed-fee research revenue [A1 scenario only]; affected stakeholders: clients, junior analysts, senior reviewers and principals; mechanism: rapid draft/synthesis lowers possible production effort but introduces source-review/rework; timing: possible during 2026–27 pilot, observed impact date unknown; uncertainty: no measured cost, quality or substitution. 2. Element: authentic US consumer and channel validation; creation: AI can draft hypotheses and prompts for humans [S3]; displacement: it does NOT replace witnessed interviews, consent, partner diligence or sales-channel execution by the bounded technology; affected stakeholders: clients, participants and field partners; timing: ongoing pilot and future unknown; uncertainty: whether buyers pay for verification is unmeasured. 3. Element: information integrity and governance; creation: traceable evidence workflow; displacement/cannibalization: review time may offset draft-time savings [S4]; stakeholders: clients, research subjects, reviewers; time: immediate use; uncertainty: error and rework rates not measured. No net-benefit conclusion follows.",
+  "organization_specific_finding": "Business-model baseline: Scenario baseline (October 13, 2026): hypothetical small bilingual consultancy serving Chinese home/lifestyle brands entering the US; paid fixed-fee competitor research, translated public information, positioning hypotheses and strategy reports; analysts conduct desk research, seniors review; public-source synthesis is its salient deliverable, with limited proprietary US data and channel access. Business-Model Disruption Potency: High conditional stress exposure, NOT verified current High impact: if buyers accept self-produced AI briefs as substitutes for paid generic reports and the firm lacks trusted verification or proprietary insight, the core paid deliverable could lose differentiation. Present observed potency is Undetermined—insufficient customer substitution, fees, cost and margin evidence. Severity/time placement: High conditional stress severity; actual severity undetermined. Near = to 2027-10-13, mid = to 2029-10-13, far thereafter are planning bins, NOT dated forecasts. No substantiated business-impact date: time cell UNDETERMINED. Illustrative High/mid cell only if substitution and loss of paid demand are later evidenced; chapter default would be prepare and pilot, not a current empirical conclusion.",
+  "evidence": [
+    {
+      "claim": "A reported productivity gain for AI-assisted customer support, not an estimated consulting gain",
+      "source_or_reference": "S1: Brynjolfsson, Li & Raymond, Generative AI at Work, NBER WP 31161, revised November 2023, https://www.nber.org/papers/w31161",
+      "date_or_recency": "November 2023 revision; reviewed evidence snapshot October 13, 2026",
+      "evidence_type": "empirical evidence, different industry",
+      "notes": "5,179 support agents; reported mean 14% higher issues resolved/hour, 34% for novices; no transfer of those percentages to consulting, margins, employment or substitution."
+    },
+    {
+      "claim": "Existing-source research and direct consumer research serve distinct information needs",
+      "source_or_reference": "S3: US Small Business Administration, Market Research and Competitive Analysis, https://www.sba.gov/counseling/plan-your-business/#market-research",
+      "date_or_recency": "Undated page; evidence snapshot October 13, 2026",
+      "evidence_type": "official methodological guidance",
+      "notes": "Desk sources may lack audience specificity; interviews and focus groups offer direct but costly evidence; this does not prove willingness to pay for local services."
+    },
+    {
+      "claim": "Generative AI can produce misleading assertions and poses privacy and overreliance risks",
+      "source_or_reference": "S4: NIST AI 600-1, Generative Artificial Intelligence Profile, July 2024, https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "date_or_recency": "July 2024; evidence snapshot October 13, 2026",
+      "evidence_type": "official risk-management framework",
+      "notes": "Sections 2.2, 2.4 and 2.7; proposed human review is a control, not proof that errors vanish."
+    },
+    {
+      "claim": "Creative destruction, sustaining/disruptive mechanisms, incumbent dilemma and threat matrix",
+      "source_or_reference": "C1: Fortino, Mastering the Craft of Emerging Technology Adoption, Chapter 1, sections 1.2–1.7, Figure 1.8 (course reading)",
+      "date_or_recency": "August 2026 draft",
+      "evidence_type": "course conceptual framework",
+      "notes": "Used for analytical categories and matrix actions; does not establish case-specific forecast."
+    },
+    {
+      "claim": "The organizations and their revenue/capability assumptions are hypothetical inputs",
+      "source_or_reference": "A1: student-selected case context supplied in all three run packets",
+      "date_or_recency": "As-of October 13, 2026",
+      "evidence_type": "scenario assumption, not independent evidence",
+      "notes": "No observed client willingness to pay, market substitution, margins, consumer interviews or verified field-network advantage. HBS 403 excluded."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Sustaining/complementary alternative: firms may use AI to strengthen professionally verified deliverables without changing what clients purchase; AI-produced drafts may increase verification costs.",
+    "The NBER customer-support productivity study is not direct evidence of consultancy savings or client switching; HBS study was unavailable (403) and is not cited as evidence.",
+    "Hypothetical organizations have no observed revenues, profit margins, buyers, price elasticity or validated competitive pressure. Course historical examples guide method, not forecast."
+  ],
+  "confidence_and_uncertainty": "General task-assistance/risk mechanism: moderate confidence in plausible assistance and documented model risks, low confidence in transfer size. Firm baseline: explicit hypothetical assumptions, not empirically verified. Potency: High conditional stress exposure, NOT verified current High impact: if buyers accept self-produced AI briefs as substitutes for paid generic reports and the firm lacks trusted verification or proprietary insight, the core paid deliverable could lose differentiation. Present observed potency is Undetermined—insufficient customer substitution, fees, cost and margin evidence. Severity: scenario-dependent. Timing: undetermined; near/mid/far date bins are conventions only, and neither a 2027–2029 impact claim nor a probability is substantiated. Do not equate unknown with Low.",
+  "value_opportunity_implication": "Create: faster source-linked bilingual drafts and potentially affordable, smaller-client diagnostic packages; realization requires accurate source tracing, acceptable review cost and measured user/client value. New underserved clientele and revenue are hypotheses, not established effects.",
+  "risk_governance_implication": "Incumbent dilemma: The firm may need to stop protecting hours spent assembling generic desk reports and invest in auditable synthesis and genuinely validated insight. Early investment risks rework and erosion of existing billing; waiting risks clients learning to self-serve. Neither client substitution nor net savings has been measured. NIST [S4] identifies confabulation, privacy and overreliance risks; use human accountability, source checks and approved public data, not synthetic consumer interviews. These controls require testing, not presumed effectiveness. No legal, tax, customs or product-compliance decisions within scope.",
+  "recommendation_management_implication": "Matrix action: High conditional stress severity; actual severity undetermined. Near = to 2027-10-13, mid = to 2029-10-13, far thereafter are planning bins, NOT dated forecasts. No substantiated business-impact date: time cell UNDETERMINED. Illustrative High/mid cell only if substitution and loss of paid demand are later evidenced; chapter default would be prepare and pilot, not a current empirical conclusion. Bounded response: Prepare/pilot now as a reversible learning measure, without claiming a validated High/mid matrix cell. Principal to authorize 6–8 week pilot on publicly available, nonregulated home/lifestyle cases; compare AI-assisted versus existing process on provenance accuracy, review/rework hours, turnaround, client-rated usefulness and fully loaded cost; do not cut staff or change price promises until customer evidence supports it. Pilot acceptance/stop thresholds must be agreed by owner before kickoff based on baseline measurement, including denominator, audit sample and review date; no fabricated percentages or predeclared success.",
+  "change_monitoring_triggers": [
+    "Principal reviews monthly: commission structured client interviews and track lost bids explicitly attributed to AI self-service (count / all lost bids) over a predefined quarter; if a preapproved threshold and sample minimum are met, redesign pricing and reassess matrix severity/timing. Threshold must be calibrated from baseline; none is empirically established.",
+    "Review source freshness, material AI error/rework and client data incidents at each pilot checkpoint; any material confidentiality breach pauses use pending human review. Proposed monitoring rules are managerial controls, not verified market thresholds."
+  ],
+  "abstention_or_more_information_needed": [
+    "Actual client willingness to pay and substitution behavior for AI-generated briefs",
+    "Baseline project revenue, delivery cost, source-check rework, repeat business, and margin",
+    "Observed adoption/deployment trend specific to these clients to support near/mid/far placement"
+  ]
+}

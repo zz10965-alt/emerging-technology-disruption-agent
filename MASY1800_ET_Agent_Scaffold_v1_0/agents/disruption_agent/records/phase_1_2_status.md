@@ -53,3 +53,7 @@ After the student saved and published the network configuration, actual retries 
 ## Received-run review and revision 0.4
 
 Three actual student-supplied ChatGPT v0 JSON files and original handoff were preserved byte-for-byte with SHA-256 records. Independent course and full-schema validation passed all three. Review found unsupported primary timing and a confounded business-model/workflow rating comparison; exact passages are preserved. Original v0 instructions/metadata/packets were retained; revised 0.4 instructions and three retest packets use unchanged input/evidence bytes. Local preservation/rebuild/integrity checks passed. Actual revised ChatGPT outputs are absent, so no behavioral-retest success or complete final submission is claimed. English deliverable drafts and Word copies are prepared for review, with explicit status and student-review gates.
+
+## Final status after receipt of v1
+
+The student later supplied three actual v1 responses and a handoff stating they were produced in ONE ChatGPT conversation, not three independent fresh chats. Originals are preserved in responses/ and RETEST_HANDOFF_original.md. All six received v0/v1 JSONs pass independent course/full-schema checks. See retest_assessment.md for observed fixes, partial improvements and residual defects. Earlier statements that no v1 existed are historical, not current status. Version 0.4 remains the tested candidate; no further untested instruction change was substituted.

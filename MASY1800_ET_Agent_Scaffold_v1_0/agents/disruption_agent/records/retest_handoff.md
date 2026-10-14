@@ -24,3 +24,7 @@ Paste the complete packet and request JSON only. Keep the supplied evidence snap
 - Unsupported real-world claims remain qualified/abstained; no invented surveys, costs or interviews.
 
 Run the supplied validator for each actual file and the integrity checker. Keep all v0 and v1 bytes unchanged. Record pass, partial improvement or persisting failure by criterion and exact passage. If a criterion fails, preserve it rather than editing the response into compliance. Update the report and Agent Record only with demonstrated outcomes.
+
+## Final status after receipt of v1
+
+The student later supplied three actual v1 responses and a handoff stating they were produced in ONE ChatGPT conversation, not three independent fresh chats. Originals are preserved in responses/ and RETEST_HANDOFF_original.md. All six received v0/v1 JSONs pass independent course/full-schema checks. See retest_assessment.md for observed fixes, partial improvements and residual defects. Earlier statements that no v1 existed are historical, not current status. Version 0.4 remains the tested candidate; no further untested instruction change was substituted.

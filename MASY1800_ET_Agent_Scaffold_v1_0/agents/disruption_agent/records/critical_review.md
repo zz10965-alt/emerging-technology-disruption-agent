@@ -75,3 +75,7 @@ The primary's 20% cost/25% prospect thresholds are honestly called proposed rath
 The exact original instructions/metadata and packets are preserved in `baselines/`. Version 0.4-reviewed adds controls for W1–W4 without changing core, tools, schema, input cases or evidence. Retest packets are `packets/retest_*_prompt.txt`.
 
 A local rebuild can verify that controls are present and inputs unchanged; it cannot establish corrected model behavior. No separate interactive ChatGPT execution tool is available in this Codex session. Therefore no v1 response is authored or claimed, and behavioral retest remains PENDING until actual returned JSON arrives. A primary retest is essential for W1; both contrasts should also be rerun for W2/W3. This is an explicit blocker to a completed final submission, not a hidden successful test.
+
+## Final status after receipt of v1
+
+The student later supplied three actual v1 responses and a handoff stating they were produced in ONE ChatGPT conversation, not three independent fresh chats. Originals are preserved in responses/ and RETEST_HANDOFF_original.md. All six received v0/v1 JSONs pass independent course/full-schema checks. See retest_assessment.md for observed fixes, partial improvements and residual defects. Earlier statements that no v1 existed are historical, not current status. Version 0.4 remains the tested candidate; no further untested instruction change was substituted.

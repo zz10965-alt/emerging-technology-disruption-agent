@@ -1,13 +1,14 @@
-# Team Handoff — reviewed candidate, retest pending
+# Team Handoff — tested candidate with retained limitations
 
-- **Specialist:** Emerging Technology Disruption Agent, 0.4-reviewed; common input/output contract unchanged.
-- **Case:** Hypothetical report-led bilingual consultancy serving Chinese home/lifestyle brands entering the U.S.; contrasts are fieldwork/execution-led consulting and a brand's internal team. Same technology/evidence/posture/time definitions.
-- **Most exposed element:** Paid generic public-source/bilingual report content, conditional on equivalent client self-service or entrants and actual willingness to pay.
-- **Create versus destroy:** Lower-cost reviewed research could serve smaller brands while cannibalizing generic package fees; validation costs and demand can offset the opportunity. No net effect measured.
-- **Potency/timing:** v0 reported conditional High/mid-term; reviewer does not endorse it as an evidenced forecast. Real-world magnitude/timing remain undetermined; High is a stress scenario with materiality conditions.
-- **Action:** Reversible source-audited pilot; measure total cost/quality and client value. Keep real fieldwork and consequential decisions human-led. No staffing/pricing commitment based on the v0 labels.
-- **Urgency trigger:** Documented customer substitution/fee pressure from equivalent verified alternatives, measured against a defined baseline; do not treat arbitrary pilot thresholds as observed facts.
-- **Actual tests:** Three received v0 responses passed both course and full-schema checks. One stable general conclusion and a valid value-capture difference were observed. Severity/time comparisons are partly confounded.
-- **Genuine failure and revision:** Unsupported primary timing and cross-context object drift preserved; 0.4 adds evidence gates, fixed assessment objects, tailored counterarguments and scope controls. Behavioral correction is not yet demonstrated.
-- **Integration limit:** Do not rank this agent's Low/Moderate/High against other specialists as comparable probabilities. Preserve assumptions, confidence, evidence dates, conditionality and abstention. No legal/tax/product-compliance or final adoption authority.
-- **Next owner action:** Obtain actual v1 ChatGPT returns using retest packets, evaluate acceptance criteria, update record and final submission status. Student name/team and personal judgment/reflection need confirmation.
+- **Specialist/version:** Emerging Technology Disruption Agent, 0.4-reviewed, common input/output contract unchanged. Preserve this tested version rather than silently inserting an untested fix.
+- **Case:** Hypothetical bilingual consultancy selling U.S. market-entry research to Chinese home/lifestyle brands. Contrasts: fieldwork/execution-led consultancy and internal brand expansion team; same bounded LLM capability and supplied evidence snapshot.
+- **Most exposed element:** Generic paid report content, conditional on equivalent client self-service/entrants actually replacing demand. No observed fees, margins or switching.
+- **Create versus destroy:** Potential affordable research tier and faster preparation versus report commoditization/cannibalization. Review/rework and fieldwork costs can offset gains; no net benefit measured.
+- **Potency/time:** Primary v1: High conditional stress exposure, actual potency/severity and business-impact date undetermined. Do not pass its illustrative High/mid cell to an orchestrator as a measured forecast.
+- **Management response:** Principal's reversible 6–8-week public-data pilot; measure source-linked accuracy, all-in review cost and client value. Calibrate thresholds before execution. No pilot, staffing change, price reduction or client launch was actually performed.
+- **Reassessment:** Document real substitution/fee pressure and source-quality incidents using defined denominators and review periods. Controls are proposals, not established market thresholds.
+- **Actual testing:** Three v0 and three v1 responses; all pass course/full-schema checks. V1 was produced in one ChatGPT conversation, NOT three independent fresh chats. Handoff/session provenance is user-reported, not a witnessed Codex API call.
+- **Observed improvement:** Unsupported dated impact placement deferred; supported appraisal separated from stress scenario; NBER revision/cross-sector boundary explicit.
+- **Remaining weakness:** Ancillary task/service labels still partly mix with organization-wide threat; contrary-evidence arrays identical; ledger coverage incomplete. Same-conversation anchoring limits independence. Reviewer synthesis must not be confused with additional model outputs.
+- **Integration:** Preserve confidence, assumptions, abstention, evidence dates and scenario scope. Categories are not probabilities or commensurate cross-specialist scores. No legal/tax/customs/product-compliance or final adoption authority.
+- **Next improvement:** Fresh-session replication, organization-specific counterarguments and more complete ledgers using observed client/cost evidence. These are future recommendations, not required tests claimed as completed.

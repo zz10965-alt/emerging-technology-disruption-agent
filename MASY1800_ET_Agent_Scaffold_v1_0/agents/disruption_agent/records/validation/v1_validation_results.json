@@ -1,0 +1,46 @@
+{
+  "executed_utc": "2026-10-14T03:48:13.436680+00:00",
+  "checks": [
+    {
+      "file": "contrast_1_v1.json",
+      "command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/contrast_1_v1.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.4-reviewed"
+    },
+    {
+      "file": "contrast_2_v1.json",
+      "command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/contrast_2_v1.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.4-reviewed"
+    },
+    {
+      "file": "primary_v1.json",
+      "command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/primary_v1.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.4-reviewed"
+    }
+  ],
+  "runtime_provenance": "User-supplied handoff: three responses generated in one ChatGPT conversation, not independent fresh chats. Not a witnessed Codex API run.",
+  "scope": "Structural checks only; substantive assessment recorded separately."
+}
