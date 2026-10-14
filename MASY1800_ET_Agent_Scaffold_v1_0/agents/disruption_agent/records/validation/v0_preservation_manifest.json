@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "9f35aa4f7a413264fddb9e90fddec48c5be4381f14920bcfd5e9cd4e03bf13df",
+  "files": [
+    {
+      "uploaded_name": "TEST_HANDOFF.md",
+      "preserved_path": "records/TEST_HANDOFF_original.md",
+      "bytes": 3289,
+      "sha256": "aa0b58a4d8d0c7fa1f1c1c526915728b59192873a663bd367e854ff9b2952363"
+    },
+    {
+      "uploaded_name": "contrast_1_v0.json",
+      "preserved_path": "responses/contrast_1_v0.json",
+      "bytes": 10989,
+      "sha256": "a535e75595dc7bd3d38e5306a829c872a0f6aa0671720f98a79de21f43f2129d"
+    },
+    {
+      "uploaded_name": "contrast_2_v0.json",
+      "preserved_path": "responses/contrast_2_v0.json",
+      "bytes": 10987,
+      "sha256": "4e0982b2e705dc24706f91601b34d8e6cc91a6f4f09f1adb52b063743dfda67a"
+    },
+    {
+      "uploaded_name": "primary_v0.json",
+      "preserved_path": "responses/primary_v0.json",
+      "bytes": 11228,
+      "sha256": "4e7c28b38a3969fb34aae50eb91ce30ace182e8e88668827b70c33b213d23cec"
+    }
+  ]
+}

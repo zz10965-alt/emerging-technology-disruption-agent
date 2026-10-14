@@ -1,40 +1,40 @@
 # Emerging Technology Disruption Agent
 
-Status: 0.3-evidence-checked. Created from the unchanged instructor template with `tools/new_agent.py`. The student selected the China-to-U.S. market-entry consulting case. NBER/SBA/NIST claim verification is recorded; HBS remains inaccessible. Actual ChatGPT testing and firm-specific empirical verification are pending.
+**Current status: 0.4-reviewed; real v0 responses reviewed, behavioral retest pending. Do not submit as complete yet.**
 
-## Files and boundaries
+Created from the unchanged instructor template. All original package/core/tool hashes remain intact. No new framework/API account is needed. Python standard-library course tools remain the required workflow. The optional full-schema check used the already-installed `jsonschema` package; it is not a change to course dependencies.
 
-- `specialist_instructions.md`: reusable creative-destruction logic and exact placement within the common schema.
-- `agent_metadata.json`: name, specialty, pre-case version.
-- `cases/primary.json`, `contrast_1.json`, `contrast_2.json`: completed hypothetical scenario intakes: report-led consultancy, fieldwork/execution-led consultancy and an internal brand team.
-- `records/agent_record.md`: pre-case record matching the Word template's sections A–E; pending findings are explicit.
-- `records/phase_1_2_status.md`: inspection and mechanical verification evidence.
-- `records/case_options.md`: historical proposals; the student selected a focused consulting variant.
-- `responses/`: reserved for actual saved ChatGPT JSON, currently empty.
+## Current evidence
 
-No added dependencies or API key are needed. Use existing checkouts in the isolated cloud environment; do not create a worktree unless the student requests one. Run commands from `/workspace/emerging-technology-disruption-agent/MASY1800_ET_Agent_Scaffold_v1_0`.
+- Student-supplied actual ChatGPT outputs: `responses/primary_v0.json`, `contrast_1_v0.json`, `contrast_2_v0.json`; raw handoff in `records/TEST_HANDOFF_original.md`. Bytes preserved, hashes recorded.
+- All three independently pass course validation and full Draft 2020-12 schema checks. This is format evidence, not analytical success.
+- `records/critical_review.md`: stable general findings, valid value-capture contrast, unsupported primary impact timing, cross-context evaluation-object drift and copied counterargument.
+- `records/baselines/`: exact original v0 specialist/metadata/packets.
+- `specialist_instructions.md`: revision 0.4 adds evidence gates and scope/uncertainty controls. Inputs/evidence are unchanged.
+- `packets/retest_*_prompt.txt`: revised packets. Original `primary_prompt.txt`/contrast packets are retained as v0 history, not the current retest inputs.
+- `records/retest_handoff.md`: exact external execution/save steps and acceptance criteria. No v1 outputs exist.
+- `deliverables/`: English Markdown and Word review drafts, including primary output report, independent judgment, verification note, Craft Gained and team handoff; `records/agent_record.md` documents actual work and limitations.
+- `evidence/`: checked NBER/SBA/NIST claims and actual access metadata. HBS remained 403 and is excluded. All organization data are declared hypothetical inputs.
 
-## After case selection
+## Commands and directories
 
-Fill all intake fields, hold ET and evidence snapshot constant in contrasts, and explain materially different contexts. Supply verified dated evidence in `additional_context`. Never infer private company capabilities as facts.
+Use the existing isolated checkout; do not create a worktree unless the student requests one. Run from `/workspace/emerging-technology-disruption-agent/MASY1800_ET_Agent_Scaffold_v1_0`.
 
 ```sh
 python tools/check_frozen_core.py
-python tools/build_prompt.py --agent agents/disruption_agent --case agents/disruption_agent/cases/primary.json
+python tools/validate_response.py agents/disruption_agent/responses/primary_v0.json
+python tools/validate_response.py agents/disruption_agent/responses/contrast_1_v0.json
+python tools/validate_response.py agents/disruption_agent/responses/contrast_2_v0.json
 ```
 
-Paste the generated `work/disruption_agent_primary_prompt.txt` into interactive ChatGPT; request JSON only and save the actual return under `agents/disruption_agent/responses/primary_response.json`.
+Rebuild any revised packet with the instructor `build_prompt.py`, e.g.:
 
 ```sh
-python tools/validate_response.py agents/disruption_agent/responses/primary_response.json
+python tools/build_prompt.py --agent agents/disruption_agent --case agents/disruption_agent/cases/primary.json --out agents/disruption_agent/packets/retest_primary_prompt.txt
 ```
 
-Repeat for contrasts using the corresponding case paths. Manually inspect all schema types and extra keys, source validity, complete analytical coverage, and context sensitivity. Preserve a genuine weak output before revising, increment metadata version, and rerun the same case. Run the frozen-core checker again. No interactive model run has occurred at this stage.
+Actual model execution uses separate normal ChatGPT. Return its untouched v1 outputs for validation and critical review. The current session has no callable separate ChatGPT runtime; never fill missing files with scripted or manually corrected responses and call that a retest.
 
-## Required final deliverables — not yet complete
+## Submission
 
-Completed package/Agent Record; readable primary output report; independent judgment draft of half a page or less; AI Use and Verification Note; Craft Gained draft of at most 100 words; real test/revision evidence, limitations, and team handoff. Personal judgment and reflection require the student's review and actual testing. Brightspace provides authoritative due dates and submission UI instructions, which are not supplied here.
-
-## Selected case and next step
-
-See `evidence/source_register.md`, `records/test_plan.md` and `records/run_in_chatgpt.md`. Complete packets are in `packets/`; they are inputs, not test outputs. Never submit the earlier unselected `/tmp` smoke packet. Current cases have no REPLACE placeholders and label organizational attributes as assumptions. All packets now share the verified evidence snapshot; supersede the earlier 0.2 packets.
+See `deliverables/00_Submission_Checklist.md`. Review drafts are available now; a completed final package requires genuine behavioral retest outcomes and student review/identity. The archive manifest identifies the source commit. The temporary retest ZIP is an execution aid, not a Brightspace submission.

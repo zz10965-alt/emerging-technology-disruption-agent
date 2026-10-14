@@ -49,3 +49,7 @@ No callable interactive ChatGPT runtime exists in this Codex session. Per the re
 ## Post-publication source retry
 
 After the student saved and published the network configuration, actual retries returned HTTP 200 for NBER, SBA (redirected official page) and the NIST PDF, and HTTP 403 for HBS. See `evidence/access_results.json` for actual timestamps, URLs, statuses, byte counts and hashes. Targeted evidence inspection and limits are in the source register. Earlier all-blocked observations are historical. Version 0.3 and all three packets now share verified NBER/SBA/NIST evidence; HBS findings remain excluded. Case-specific empirical claims and all interactive model tests remain pending.
+
+## Received-run review and revision 0.4
+
+Three actual student-supplied ChatGPT v0 JSON files and original handoff were preserved byte-for-byte with SHA-256 records. Independent course and full-schema validation passed all three. Review found unsupported primary timing and a confounded business-model/workflow rating comparison; exact passages are preserved. Original v0 instructions/metadata/packets were retained; revised 0.4 instructions and three retest packets use unchanged input/evidence bytes. Local preservation/rebuild/integrity checks passed. Actual revised ChatGPT outputs are absent, so no behavioral-retest success or complete final submission is claimed. English deliverable drafts and Word copies are prepared for review, with explicit status and student-review gates.

@@ -1,0 +1,51 @@
+{
+  "executed_utc": "2026-10-14T03:24:51.299585+00:00",
+  "checks": [
+    {
+      "file": "contrast_1_v0.json",
+      "course_command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/contrast_1_v0.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "course_stderr": "",
+      "full_schema_draft": "2020-12",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.3-evidence-checked"
+    },
+    {
+      "file": "contrast_2_v0.json",
+      "course_command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/contrast_2_v0.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "course_stderr": "",
+      "full_schema_draft": "2020-12",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.3-evidence-checked"
+    },
+    {
+      "file": "primary_v0.json",
+      "course_command": [
+        "python",
+        "tools/validate_response.py",
+        "agents/disruption_agent/responses/primary_v0.json"
+      ],
+      "course_exit": 0,
+      "course_stdout": "VALIDATION PASSED",
+      "course_stderr": "",
+      "full_schema_draft": "2020-12",
+      "full_schema_errors": [],
+      "full_schema_pass": true,
+      "agent_version": "0.3-evidence-checked"
+    }
+  ],
+  "scope": "JSON contract only; analytical quality reviewed separately."
+}

@@ -1,0 +1,24 @@
+{
+  "executed_utc": "2026-10-14T03:30:07.937085+00:00",
+  "checks_passed": [
+    "Unchanged received TEST_HANDOFF_original.md",
+    "Unchanged received contrast_1_v0.json",
+    "Unchanged received contrast_2_v0.json",
+    "Unchanged received primary_v0.json",
+    "Exact baseline instructions/metadata preserved",
+    "Identical input/evidence primary",
+    "Reproducible revised packet primary",
+    "Identical input/evidence contrast_1",
+    "Reproducible revised packet contrast_1",
+    "Identical input/evidence contrast_2",
+    "Reproducible revised packet contrast_2",
+    "All original package file hashes unchanged",
+    "FROZEN CORE INTACT",
+    "No fabricated v1 response exists"
+  ],
+  "craft_gained_words": 80,
+  "independent_judgment_words": 174,
+  "behavioral_retest": "NOT EXECUTED \u2014 separate interactive ChatGPT runtime unavailable",
+  "behavioral_retest_pass": null,
+  "scope": "Preservation, immutable-case regression, prompt rebuild and original integrity only; not model behavior."
+}

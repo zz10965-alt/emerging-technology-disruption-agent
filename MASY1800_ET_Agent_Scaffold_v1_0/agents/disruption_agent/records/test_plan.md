@@ -19,3 +19,7 @@ Track whether generic report demand declines, whether a lower-cost offering attr
 ## Current outcomes
 
 Intake and packet construction: validated mechanically. Primary/contrast model runs, factual evidence verification, stable/changed finding, genuine weakness and retest: NOT RUN / PENDING. No test pass is claimed for specialist behavior.
+
+## Actual v0 review update
+
+Three student-supplied responses now exist and pass both structural checks. Their general findings are exactly identical, and their paid-value mechanisms differ appropriately. Their severity/time ladder is partly confounded by changing the rated object and is not accepted as a validated market conclusion. Exact review, preservation hashes and executed results are in `critical_review.md` and `validation/`. Version 0.4 and rebuilt packets address the observed weaknesses; behavioral retest remains pending.

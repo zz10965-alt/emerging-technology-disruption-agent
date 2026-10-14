@@ -32,3 +32,7 @@ Review all seven specialist analyses and all three context levels. Identify one 
 Preserve at least one actual weak/generic/unsupported/contradictory output. Record the exact passage, diagnosis, corrective instruction, version and date. Keep v0; revise the specialist, increment metadata, rebuild packets with the same case/evidence, and save a separate retest output. Do not edit the old response or change the case to hide failure. If no deficiency is found, document actual review honestly and use an informative stress case; do not manufacture a failure.
 
 Only then complete the readable report, half-page independent-judgment draft, verification note, at-most-100-word personal Craft Gained draft, team handoff and final checklist. Personal judgment and reflection remain subject to the student's review. Obtain current Brightspace submission instructions from the course site; no deadline or UI sequence is invented here.
+
+## Subsequent status update
+
+The three v0 responses were later supplied by the student, preserved unchanged, validated and critically reviewed. The opening pre-run status is historical. Use `retest_handoff.md` and `packets/retest_*_prompt.txt` now; no v1 exists. See `critical_review.md` for the genuine deficiencies rather than assuming the original categories are correct.

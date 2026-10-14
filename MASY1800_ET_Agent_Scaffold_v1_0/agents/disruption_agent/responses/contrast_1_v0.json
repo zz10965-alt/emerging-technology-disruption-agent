@@ -1,0 +1,67 @@
+{
+  "agent": {
+    "name": "Emerging Technology Disruption Agent",
+    "specialty": "creative destruction and business-model disruption",
+    "version": "0.3-evidence-checked"
+  },
+  "analytical_question": "As of 2026-10-13, how should Hypothetical small bilingual consultancy serving the same Chinese home/lifestyle brands, but fieldwork/execution-led rather than report-led. respond over the next 12 months to human-supervised generative AI in Use the identical LLM capability to support public-source research and draft recommendations within a service whose core deliverables are real U.S. customer interviews, field validation, partner diligence and supervised channel-entry execution., considering business-model disruption severity and its timing?",
+  "general_et_finding": "As of 2026-10-13, human-supervised large-language-model generative AI can plausibly accelerate bilingual drafting and synthesis of public-source market information, but the supplied evidence does not establish accuracy, total cost, adoption rates, or autonomous fieldwork in this consulting niche. Schumpeterian creation includes faster information assembly and accessible entry-level research; potential destruction includes commoditization of generic desk-analysis deliverables. Under Christensen, task automation alone is sustaining; genuinely disruptive displacement is conditional on lower-cost self-service or new entrants attracting underserved brands, producing reliable decision value, and moving into work now sold by consultancies. The same technology could remain complementary where validated primary research and execution are the product. E1 provides the framework, E2 shows task assistance in a different sector (not a consulting impact estimate), E3 distinguishes primary from secondary research, and E4 frames error/privacy risks. Later entrants can themselves face commoditization; this is a possibility, not a forecast.",
+  "application_finding": "Application: Use the identical LLM capability to support public-source research and draft recommendations within a service whose core deliverables are real U.S. customer interviews, field validation, partner diligence and supervised channel-entry execution. Creative-destruction ledger (explicit scenario hypotheses; no measured outcomes): 1. Public-source briefing: create faster preparation and interview guides, reduce analyst desk time; minor direct fee risk because briefs are supporting work, not the central product; E2 analogy, near-term conditional. 2. Primary customer research: AI can suggest questions and synthesize actual consented transcripts, but cannot itself conduct verified physical field observations or replace genuine research participants within the stated capability; E3; near-term complementary opportunity. 3. Local partner diligence and entry execution: automation might create documentation capacity but cannot be assumed to replicate in-person partner verification or negotiation; possible future threats require evidence of changed capabilities/behavior; mid/far undetermined. 4. Accuracy/privacy: invented interviews, leaked transcripts or weak attribution can destroy trust; E4; immediate control need.",
+  "organization_specific_finding": "Business-model baseline: Assumed as of 2026-10-13: a small bilingual consultancy is paid through scoped research projects and ongoing execution retainers for authentic U.S. interviews, participant recruitment, local partner checks and channel-entry follow-up. Public-source desk briefs are inputs, not the primary paid product. Human relationships, fieldwork organization and evidence quality generate value, but their uniqueness and pricing power are unverified. Business-Model Disruption Potency: Moderate (conditional; low-to-moderate confidence). The conditional exposure concerns the actual paid core, not the popularity of AI. Severity/time placement: Moderate × Near-term for complementary task changes through 2027-10-13; mid-term threat to core fieldwork fees remains unproven. Matrix default: Pilot or partner: test direct exposure. None of these judgments is a firm-level estimate or an observed market outcome.",
+  "evidence": [
+    {
+      "claim": "The course framework distinguishes sustaining improvements from disruptive value-delivery changes and maps disruption severity against time to material impact.",
+      "source_or_reference": "Andres Fortino, Mastering the Craft of Emerging Technology Adoption, Chapter 1, sections 1.2–1.7, Figure 1.8 (course manuscript)",
+      "date_or_recency": "August 2026 draft; supplied course text, as of 2026-10-13",
+      "evidence_type": "Course conceptual framework, not market measurement",
+      "notes": "E1; directly supplied in course materials; conceptual support only."
+    },
+    {
+      "claim": "The cited NBER study reports a 14% average increase in issues resolved per hour in a 5,179-worker customer-support setting, with heterogeneous effects.",
+      "source_or_reference": "Brynjolfsson, Li, Raymond, Generative AI at Work, NBER WP 31161, https://www.nber.org/papers/w31161",
+      "date_or_recency": "2023 working-paper revision; source verification documented by Codex on 2026-10-13",
+      "evidence_type": "Empirical study in another industry",
+      "notes": "E2; 14% applies to customer support, NOT consulting, consultancy savings, or willingness to pay. Evidence imported from uploaded verified source register; not independently re-retrieved in this run."
+    },
+    {
+      "claim": "Market research using existing sources differs from direct customer research such as interviews, focus groups and surveys; each has different tradeoffs.",
+      "source_or_reference": "U.S. Small Business Administration, Market Research and Competitive Analysis, https://www.sba.gov/counseling/plan-your-business/#market-research",
+      "date_or_recency": "Undated page; Codex source register records access 2026-10-13",
+      "evidence_type": "Government research-method guidance",
+      "notes": "E3; distinguishes methods; does not establish consultancy premiums or fieldwork competitive moat."
+    },
+    {
+      "claim": "Generative AI can produce confabulated assertions/citations and carries data-privacy and human-overreliance risks.",
+      "source_or_reference": "NIST, AI RMF Generative AI Profile, AI 600-1, sections 2.2, 2.4, 2.7, https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "date_or_recency": "July 2024; Codex source register records access 2026-10-13",
+      "evidence_type": "Government risk-management guidance",
+      "notes": "E4; motivates source checks and privacy safeguards; does not measure this agent’s error rate."
+    },
+    {
+      "claim": "Organization, pricing mechanisms, operations and constraints are hypothetical case-design assumptions, not observations of named firms.",
+      "source_or_reference": "User-approved Assignment 2 case intake: contrast_1.json",
+      "date_or_recency": "Scenario baseline as of 2026-10-13",
+      "evidence_type": "Declared scenario assumption",
+      "notes": "A1; supports conditional reasoning only; no internal revenue, sales or fieldwork data."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Strong sustaining/complementary case: AI assistance may cheapen preparation while clients continue paying for judgment, accountability, access and verified customer insight; neither direct substitution nor a low-end disruption trajectory is observed.",
+    "No direct verified experiment on small China-to-U.S. market-entry consultancies, no customer willingness-to-pay or service economics, and no primary customer interviews; the source snapshot cannot quantify pricing changes or displacement.",
+    "NBER customer-support productivity findings cannot be transferred as consultancy ROI; the HBS URL was inaccessible in the supplied source register and is not cited as evidence.",
+    "SBA differentiates primary and secondary research, but does not establish an enduring moat or price premium for fieldwork; NIST risks are general, not product-specific failure-rate measurements."
+  ],
+  "confidence_and_uncertainty": "General mechanism: moderate confidence in ability to assist drafting, low confidence in magnitude for this niche. Baseline: scenario-defined, not independently observed. Potency Moderate (conditional; low-to-moderate confidence): low-to-moderate scenario confidence; no firm-level evidence. Severity/time: conditional management scenario, not a forecast of competitor adoption or date of actual revenue impact. Distinguishing evidence would be audited end-to-end cost/quality studies, client substitution and price tests, genuine interviews, and observed competing offerings; until then, do not infer an existential threat.",
+  "value_opportunity_implication": "Research staff could focus more time on actual customer/partner validation while accelerating desk preparation, conditional on quality and consent safeguards.",
+  "risk_governance_implication": "Incumbent dilemma: field researchers may dismiss AI entirely to protect billable preparation hours, while management could mistakenly replace direct research with simulated personas. Too early: underfund in-person validation or mishandle interview consent/data; too late: competitors lower research preparation costs and offer faster turnaround. Retain human fieldwork authority, documented consent and corroborated evidence.",
+  "recommendation_management_implication": "Default Moderate × Near-term = pilot or partner. Fieldwork director should pilot 8–12 weeks of AI-assisted prep and transcript synthesis on consented or de-identified material, measuring end-to-end delivery cost, participant fidelity, citation accuracy, client turnaround and privacy events. Keep interview recruitment, partner evaluation and conclusions human-led. Reconsider a report-price reduction only if actual client demand or competition shows that supporting briefs command an independent premium.",
+  "change_monitoring_triggers": [
+    "Fieldwork director quarterly: if ≥25% of paid scope or customer feedback shifts from verified interviews/execution to self-service AI desk research for two quarters, reassess potency and pricing; threshold is proposed, not factual.",
+    "Operations lead monthly: if the audited pilot passes consent and factual accuracy rules while reducing full workflow hours ≥20%, scale only low-risk preparation, preserving local verification."
+  ],
+  "abstention_or_more_information_needed": [
+    "Do not estimate quantified consultancy savings, displacement percentage, actual fee erosion, ROI or certainty of market entry without client, competitor and cost records.",
+    "Do not assert legal, tax, customs or product-compliance guidance from this specialist; obtain qualified advice separately.",
+    "Defer any real-firm viability/existential classification and irreversible staffing or market-entry decision pending measured demand, audited output quality, costs and customer validation."
+  ]
+}
