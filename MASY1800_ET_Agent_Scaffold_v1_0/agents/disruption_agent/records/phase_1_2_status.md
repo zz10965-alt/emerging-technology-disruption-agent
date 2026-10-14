@@ -31,3 +31,7 @@ The uploaded working copy is not byte-for-byte package-complete because the thre
 Choose a proposal in `case_options.md`. Then fill real intake and evidence, build case packets with the supplied tool, execute them interactively in ChatGPT, save/validate actual returns, compare contexts, preserve and address a genuine weakness, and finish English deliverables. No external case claims have yet been verified, and no case report, independent judgment, personal reflection or final submission package is complete.
 
 No dependency-install script or running service is required for this scaffold. Current mechanical validation does not establish specialist reasoning quality or fresh-task snapshot restoration. Local prompt-construction smoke packets must not be submitted as case outputs.
+
+## Original archive reconciliation
+
+The student subsequently supplied the canonical scaffold ZIP. Its 32 file entries were compared byte-for-byte with the working copy: all existing original files matched, and only the three previously reported hidden files were absent. Restored `.gitignore`, `work/.gitkeep`, and `agents/_template/responses/.gitkeep` directly from the unchanged ZIP, without reconstructing contents or modifying manifests. ZIP SHA-256: `3875e8924556b2801c572390fb2c90e5957aea452d33312a31084e1f3712e754`. The full package hash check and frozen-core checker now pass. Earlier missing-file results above remain as historical evidence and are resolved. No case selection or analytical testing has occurred.
