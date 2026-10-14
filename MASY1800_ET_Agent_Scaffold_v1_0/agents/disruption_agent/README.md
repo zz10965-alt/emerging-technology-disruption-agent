@@ -1,6 +1,6 @@
 # Emerging Technology Disruption Agent
 
-Status: 0.2-case-ready. Created from the unchanged instructor template with `tools/new_agent.py`. The student selected the China-to-U.S. market-entry consulting case. External evidence verification and actual ChatGPT testing are pending.
+Status: 0.3-evidence-checked. Created from the unchanged instructor template with `tools/new_agent.py`. The student selected the China-to-U.S. market-entry consulting case. NBER/SBA/NIST claim verification is recorded; HBS remains inaccessible. Actual ChatGPT testing and firm-specific empirical verification are pending.
 
 ## Files and boundaries
 
@@ -37,4 +37,4 @@ Completed package/Agent Record; readable primary output report; independent judg
 
 ## Selected case and next step
 
-See `evidence/source_register.md`, `records/test_plan.md` and `records/run_in_chatgpt.md`. Complete packets are in `packets/`; they are inputs, not test outputs. Never submit the earlier unselected `/tmp` smoke packet. Current cases have no REPLACE placeholders and label organizational attributes as assumptions.
+See `evidence/source_register.md`, `records/test_plan.md` and `records/run_in_chatgpt.md`. Complete packets are in `packets/`; they are inputs, not test outputs. Never submit the earlier unselected `/tmp` smoke packet. Current cases have no REPLACE placeholders and label organizational attributes as assumptions. All packets now share the verified evidence snapshot; supersede the earlier 0.2 packets.

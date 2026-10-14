@@ -45,3 +45,7 @@ Actual checks passed: all required intake string fields; exact equality of techn
 Original-source retrieval to NBER, HBS, SBA and NIST returned proxy 403. No external empirical findings were asserted. Required hosts were saved to a network configuration draft; its save requires review/save and publication in environment settings and does not itself enable access. No secret/API key requirement was added.
 
 No callable interactive ChatGPT runtime exists in this Codex session. Per the requested MD fallback, complete prompt packets and exact run/save/validate instructions are supplied in `packets/` and `records/run_in_chatgpt.md`. Actual primary/contrast outputs, evidence verification, stable/changed judgments, real weakness/revision/retest, final report and personal deliverables remain pending. Do not count case instantiation/version 0.2 as an evidence-driven revision.
+
+## Post-publication source retry
+
+After the student saved and published the network configuration, actual retries returned HTTP 200 for NBER, SBA (redirected official page) and the NIST PDF, and HTTP 403 for HBS. See `evidence/access_results.json` for actual timestamps, URLs, statuses, byte counts and hashes. Targeted evidence inspection and limits are in the source register. Earlier all-blocked observations are historical. Version 0.3 and all three packets now share verified NBER/SBA/NIST evidence; HBS findings remain excluded. Case-specific empirical claims and all interactive model tests remain pending.

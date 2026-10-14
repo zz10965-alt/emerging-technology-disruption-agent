@@ -1,0 +1,59 @@
+[
+  {
+    "id": "nber",
+    "requested_url": "https://www.nber.org/papers/w31161",
+    "attempt_utc": "2026-10-14T02:56:50.500066+00:00",
+    "status": 200,
+    "final_url": "https://www.nber.org/papers/w31161",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 97021,
+    "sha256": "72d8e6ed8e3950ba1b872e141f4ff5f527cd878d2795914fb33fd27f22e8df98",
+    "local_path": "/workspace/scratch/assignment2-evidence/nber.html"
+  },
+  {
+    "id": "hbs",
+    "requested_url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+    "attempt_utc": "2026-10-14T02:56:50.502424+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "sba",
+    "requested_url": "https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis",
+    "attempt_utc": "2026-10-14T02:56:50.503215+00:00",
+    "status": 200,
+    "final_url": "https://www.sba.gov/counseling/plan-your-business/#market-research",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 252514,
+    "sha256": "9db949b2d37e90277478c5fd60df100aa61ea61894575c5e620ace32ecfa0904",
+    "local_path": "/workspace/scratch/assignment2-evidence/sba.html"
+  },
+  {
+    "id": "nist",
+    "requested_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "attempt_utc": "2026-10-14T02:56:50.503836+00:00",
+    "status": 200,
+    "final_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1174643,
+    "sha256": "6e73620ab6b64e90ef2c04bf0e0d6246185a2f4b1b13cab0df494496cff89b6a",
+    "local_path": "/workspace/scratch/assignment2-evidence/nist.pdf"
+  },
+  {
+    "id": "nber_revision1",
+    "requested_url": "https://www.nber.org/system/files/working_papers/w31161/revisions/w31161.rev1.pdf",
+    "attempt_utc": "2026-10-14T02:57:33.667147+00:00",
+    "status": 200,
+    "final_url": "https://www.nber.org/system/files/working_papers/w31161/revisions/w31161.rev1.pdf",
+    "bytes": 1007022,
+    "sha256": "58316f34812f59dbe7b787fae3fc42dfac76d61507901842265fb76be08c65fa"
+  },
+  {
+    "id": "nber_current_pdf",
+    "requested_url": "https://www.nber.org/system/files/working_papers/w31161/w31161.pdf",
+    "attempt_utc": "2026-10-14T02:57:49.747353+00:00",
+    "status": 200,
+    "final_url": "https://www.nber.org/system/files/working_papers/w31161/w31161.pdf",
+    "bytes": 1003328,
+    "sha256": "9af82b90f2a94f8757ace8c7b7ef0934b145a00f4156fc806f4fb8a33e1bddc2"
+  }
+]

@@ -8,7 +8,7 @@
 - Branch: assignment-2-disruption-agent.
 - Commit: Uploaded baseline 4cd9f889302bb2d647199490ccc2898d489d3569. Pre-case implementation commit: resolve with `git log -1 --format=%H -- MASY1800_ET_Agent_Scaffold_v1_0/agents/disruption_agent` after committing. Final tested submission commit: pending.
 - Frozen scaffold: MASY1800_ET_Agent_Scaffold_v1_0.
-- Specialist version: 0.2-case-ready; selected case inputs/packets prepared, analytical behavior untested.
+- Specialist version: 0.3-evidence-checked; selected inputs/packets updated with checked NBER/SBA/NIST sources; analytical behavior untested.
 
 ## B. Specialist purpose and context
 - Governing question: How much creative destruction could this emerging technology cause to this business and industry, on what time horizon, and what should management do about that exposure?
@@ -27,7 +27,7 @@
 ## D. Evidence and testing
 - Framework sources: Assignment 2 V3; common instructions; Student Operating Guide v2; Fortino, Chapter 1, August 2026 draft, sections 1.2–1.7 and Figure 1.8, page 11. These are conceptual sources, not verified evidence of contemporary market facts.
 - Baseline frozen-core check: Passed before edits.
-- Primary test: Not run; awaiting actual interactive ChatGPT run and verified external evidence.
+- Primary test: Not run; awaiting actual interactive ChatGPT run; general NBER/SBA/NIST evidence checked, firm-specific evidence absent.
 - Contrast stable finding / changed finding: Not yet established.
 - Weakness/failure: No actual specialist response exists yet. The missing upload dotfiles are a packaging limitation, not the assignment's required agent weakness.
 - Revision and reason: No evidence-driven agent revision yet; pending genuine weak output and retest.
@@ -41,3 +41,7 @@
 ## Case-ready update
 
 Student selected a focused version of consulting case A: Chinese home/lifestyle brands entering the United States. Primary: report-led consultancy. Contrast 1: fieldwork/execution-led consultancy. Contrast 2: internal brand expansion team. All are hypothetical organization-type scenarios with the same LLM capability and general evidence snapshot. The 0.2 change instantiates case inputs; it is NOT a revision in response to an observed model failure. External source retrieval was blocked by proxy 403. Exact packets and run instructions are supplied; no case finding, real weakness, or test success is claimed.
+
+## Post-publication evidence update
+
+NBER, SBA and NIST are now accessible and targeted claim checks are complete; HBS still returns HTTP 403 and is excluded. See the source register for exact versions/sections and limits. Version 0.3-evidence-checked freezes the November 2023 NBER working-paper findings rather than mixing the older revision. This supports bounded pilot reasoning, not consultancy-specific savings or displacement. All three prompts were rebuilt with an identical evidence snapshot. Actual specialist outputs and revision/retest remain absent.
