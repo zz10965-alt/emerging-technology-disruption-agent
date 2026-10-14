@@ -1,0 +1,9 @@
+{
+  "source_commit": "79b9814e5d8eab46da1fcee5fd520e32c6d85da6",
+  "sha256": {
+    "Assignment_2_Review_Draft.zip": "03da6f889f6eabfc777fa6da72b8f7e6721be16da913ad768af5f36d41fcedfe",
+    "Assignment_2_Retest_Packets.zip": "7d426456b6a96b33ee04238517fcda3b3f3916892cc13bbd676e26c472425311"
+  },
+  "archive_integrity": "CRC and per-file content hashes checked; received originals match preservation manifest",
+  "behavioral_retest": "PENDING"
+}
